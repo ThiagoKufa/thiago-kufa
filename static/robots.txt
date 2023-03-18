@@ -1,3 +1,15 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /tmp/
+Disallow: /work/
+Disallow: /system/
+Disallow: */admin/
+Disallow: */config/
+Disallow: */includes/
+Disallow: */tmp/
+Disallow: */work/
+Disallow: */system/
+

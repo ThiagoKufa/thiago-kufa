@@ -2,10 +2,6 @@
 	import heroImage from '../lib/images/programmer.svg';
 </script>
 
-<svelte:head>
-	<meta name="description" content="site pessoal de Thiago Kufa" />
-	<title>Thiago Kufa</title>
-</svelte:head>
 <header class="hero">
 	<div class="hero__content">
 		<div>
