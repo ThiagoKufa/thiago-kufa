@@ -2,12 +2,16 @@
 	import heroImage from '../lib/images/programmer.svg';
 </script>
 
+<svelte:head>
+	<meta name="description" content="site pessoal de Thiago Kufa" />
+	<title>Thiago Kufa</title>
+</svelte:head>
 <header class="hero">
 	<div class="hero__content">
 		<div>
 			<div class="line" />
 			<h1>Olá, Sou Thiago Kufa</h1>
-			<h4>Desenvolvedor Full stack</h4>
+			<h2>Desenvolvedor Full stack</h2>
 			<p>Procura construir seu app e expandir seu negócio? Vamos trabalhar juntos!</p>
 		</div>
 	</div>
