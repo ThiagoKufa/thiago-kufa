@@ -5,7 +5,7 @@
 <header class="headerContainer">
 	<nav class="navbar">
 		<a href="/" class="link" class:active={$page.url.pathname === '/'}>Home</a>
-		<a href="/projects" class="link" class:active={$page.url.pathname === '/projects'}>Projetos</a>
+		<a href="/about" class="link" class:active={$page.url.pathname === '/about'}>Sobre</a>
 		<a href="/contact" class="link" class:active={$page.url.pathname === '/contact'}>Contato</a>
 	</nav>
 </header>
@@ -14,7 +14,9 @@
 	.headerContainer {
 		display: flex;
 		justify-content: center;
-		border: 1px solid var(--color-primary);
+		align-items: center;
+		min-height: 75px;
+		border-bottom: 1px solid var(--color-primary);
 	}
 	.navbar {
 		display: flex;

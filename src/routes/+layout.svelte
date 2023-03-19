@@ -15,6 +15,17 @@
 	<main>
 		<slot />
 	</main>
+	<footer>
+		<div class="footer__content">
+			<div class="footer__content__contact">
+				<p>E-mail: tkufa.code@gmail.com</p>
+				<p>Celular/WhatsApp: (11) 95791-4190</p>
+				<p>
+					LinkedIn: <a href="<http://linkedin.com/in/thiago-kufa>">linkedin.com/in/thiago-kufa</a>
+				</p>
+			</div>
+		</div>
+	</footer>
 </div>
 
 <style>
@@ -33,5 +44,22 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+	}
+	footer {
+		border-top: 1px solid var(--color-primary);
+	}
+	.footer__content {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 1rem;
+		width: 100%;
+		max-width: 64rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.footer__content__contact a {
+		color: var(--color-primary);
 	}
 </style>
