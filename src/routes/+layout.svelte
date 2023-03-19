@@ -21,7 +21,7 @@
 				<p>E-mail: tkufa.code@gmail.com</p>
 				<p>Celular/WhatsApp: (11) 95791-4190</p>
 				<p>
-					LinkedIn: <a href="<http://linkedin.com/in/thiago-kufa>">linkedin.com/in/thiago-kufa</a>
+					LinkedIn: <a href="http://linkedin.com/in/thiago-kufa">linkedin.com/in/thiago-kufa</a>
 				</p>
 			</div>
 		</div>
