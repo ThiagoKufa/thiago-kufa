@@ -405,4 +405,9 @@
 	svg {
 		height: 450px;
 	}
+	@media only screen and (max-width: 956px) {
+		svg {
+			height: 350px;
+		}
+	}
 </style>

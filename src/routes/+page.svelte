@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="hero__content">
+	<div class="hero__content svg-img">
 		<HeroImage />
 	</div>
 </header>
@@ -41,7 +41,6 @@
 		display: flex;
 		padding: 0 var(--spacing-10);
 		gap: var(--spacing-10);
-		height: var(--screens-sm);
 	}
 	.hero__content {
 		display: flex;
@@ -49,7 +48,6 @@
 		flex: 1;
 		justify-content: center;
 		align-items: center;
-		/* border: 1px solid var(--color-primary); */
 	}
 	.description-wrap {
 		display: flex;
@@ -99,5 +97,30 @@
 		background-color: #0ef;
 		color: #38556d;
 		box-shadow: 0 0 20px #0ef;
+	}
+
+	@media only screen and (max-width: 956px) {
+		.hero {
+			flex-direction: column-reverse;
+			justify-content: flex-end;
+
+			gap: 0;
+			padding: 5px;
+			min-height: 100vh;
+			min-height: 100dvh;
+		}
+		.hero__content {
+			flex: none;
+		}
+		.hero__content h1 {
+			font-size: 2rem;
+		}
+		.hero__content h3 {
+			font-size: 1.5rem;
+		}
+		.svg-img {
+			padding: 0;
+			display: 0;
+		}
 	}
 </style>

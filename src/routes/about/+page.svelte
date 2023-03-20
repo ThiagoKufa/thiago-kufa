@@ -10,9 +10,9 @@
 	<div class="desciption-wrap glass-container">
 		<h1>Eu sou Thiago de Paula Kufa,</h1>
 		<p>
-			um desenvolvedor front-end pleno com mais de 5 anos de experiência em projetos de grande
-			porte. Possuo habilidades em liderança de equipe, desenvolvimento de aplicações web
-			responsivas e otimização de performance.
+			um desenvolvedor front-end pleno com mais de 5 anos de experiência em projetos. Possuo
+			habilidades em liderança de equipe, desenvolvimento de aplicações web responsivas e otimização
+			de performance.
 		</p>
 		<p>
 			Minha experiência inclui liderança técnica de equipe de 5 desenvolvedores front-end,
@@ -41,9 +41,11 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 		margin: 20px;
 	}
 	.desciption-wrap {
+		max-width: var(--screens-sm);
 		padding: var(--spacing-20) var(--spacing-10);
 		padding-top: var(--spacing-10);
 	}
