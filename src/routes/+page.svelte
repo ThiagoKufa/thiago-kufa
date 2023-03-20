@@ -60,7 +60,7 @@
 		font-size: 32px;
 	}
 	.description-wrap h3 span {
-		color: #0ef;
+		color: var(--color-primary);
 		font-size: 32px;
 	}
 	.description-wrap h3:nth-of-type(2) {
@@ -86,18 +86,18 @@
 		width: 40px;
 		height: 40px;
 		background-color: transparent;
-		border: 2px solid #0ef;
+		border: 2px solid var(--color-primary);
 		border-radius: 50%;
 		font-size: 24px;
-		color: #0ef;
+		color: var(--color-primary);
 		text-decoration: none;
 		margin: 30px 15px 30px 0px;
 		transition: 0.5s ease;
 	}
 	.description-wrap__social-media a:hover {
-		background-color: #0ef;
+		background-color: var(--color-primary);
 		color: #38556d;
-		box-shadow: 0 0 20px #0ef;
+		box-shadow: 0 0 20px var(--color-primary);
 	}
 
 	@media only screen and (max-width: 956px) {

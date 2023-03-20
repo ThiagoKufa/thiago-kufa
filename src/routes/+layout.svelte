@@ -82,7 +82,7 @@
 		background: #4fe3f6;
 		-webkit-filter: blur(100px);
 		filter: blur(100px);
-		opacity: 0.25;
+		opacity: 0.15;
 		pointer-events: none;
 		z-index: -2;
 	}
@@ -95,7 +95,7 @@
 		background: #c471ed;
 		-webkit-filter: blur(100px);
 		filter: blur(100px);
-		opacity: 0.25;
+		opacity: 0.15;
 		pointer-events: none;
 		z-index: -2;
 	}
