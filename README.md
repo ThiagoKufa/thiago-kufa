@@ -4,7 +4,7 @@ Este é o repositório do meu portfólio pessoal, onde eu compartilho alguns dos
 
 ## Visão geral
 
-Este site foi criado usando ReactJS e hospedado na plataforma Vercel. Ele contém informações sobre mim, meus projetos, habilidades técnicas e contatos para me encontrar.
+Este site foi criado usando SvelteKit e hospedado na plataforma Vercel. Ele contém informações sobre mim, meus projetos, habilidades técnicas e contatos para me encontrar.
 
 ## Como executar o projeto
 
