@@ -2,10 +2,15 @@
 	import HeroImage from '$components/icons/HeroImage.svelte';
 </script>
 
-<header class="hero">
+<svelte:head>
+	<title>Thiago Kufa</title>
+	<meta name="description" content="Crie aplicativos e sites" />
+</svelte:head>
+
+<header class="hero ">
 	<div class="hero__content">
-		<div class="description-wrap">
-			<div class="description-wrap__line" />
+		<div class="description-wrap glass-container">
+			<div class="description-wrap__line " />
 			<h3>Olá, eu sou</h3>
 			<h1>Thiago Kufa</h1>
 			<h3>Desenvolvedor <span>Full stack</span></h3>
@@ -49,6 +54,8 @@
 	.description-wrap {
 		display: flex;
 		flex-direction: column;
+		padding: var(--spacing-10);
+		padding-bottom: 0;
 	}
 	.description-wrap h3 {
 		font-size: 32px;
@@ -69,7 +76,7 @@
 		font-size: 16px;
 	}
 	.description-wrap__line {
-		border: 1px solid var(--color-danger);
+		border: 1px solid var(--color-secondary);
 		width: var(--spacing-15);
 		margin-bottom: var(--spacing-6);
 	}

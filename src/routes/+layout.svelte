@@ -42,8 +42,10 @@
 		display: flex;
 		position: relative;
 		flex-direction: column;
-		padding: 1rem;
+		padding-top: 80px;
 		width: 100%;
+		min-height: 100vh;
+		min-height: 100dvh;
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
