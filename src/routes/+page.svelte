@@ -39,19 +39,20 @@
 <style>
 	.hero {
 		display: flex;
+
 		padding: 0 var(--spacing-10);
 		gap: var(--spacing-10);
 	}
 	.hero__content {
 		display: flex;
 
-		flex: 1;
 		justify-content: center;
 		align-items: center;
 	}
 	.description-wrap {
 		display: flex;
 		flex-direction: column;
+		width: 500px;
 		padding: var(--spacing-10);
 		padding-bottom: 0;
 	}
@@ -117,6 +118,9 @@
 		}
 		.hero__content h3 {
 			font-size: 1.5rem;
+		}
+		.description-wrap {
+			width: auto;
 		}
 		.svg-img {
 			padding: 0;

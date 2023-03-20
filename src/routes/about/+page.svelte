@@ -31,8 +31,9 @@
 			sua organização. Por favor, não hesite em entrar em contato comigo se você tiver alguma
 			oportunidade disponível.
 		</p>
-		<p>Obrigado pela sua consideração.</p>
-		<p>Atenciosamente, Thiago de Paula Kufa</p>
+		<div class="att">
+			<p>Atenciosamente, Thiago de Paula Kufa</p>
+		</div>
 	</div>
 </main>
 
@@ -45,8 +46,13 @@
 		margin: 20px;
 	}
 	.desciption-wrap {
+		display: flex;
+		flex-direction: column;
 		max-width: var(--screens-sm);
-		padding: var(--spacing-20) var(--spacing-10);
-		padding-top: var(--spacing-10);
+		padding: var(--spacing-10);
+	}
+	.att {
+		margin-top: var(--spacing-15);
+		align-self: flex-end;
 	}
 </style>
