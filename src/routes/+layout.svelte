@@ -38,10 +38,13 @@
 	}
 
 	main {
-		flex: 1;
-		display: flex;
 		position: relative;
+
+		display: flex;
+		flex: 1;
 		flex-direction: column;
+		justify-content: center;
+
 		padding-top: 80px;
 		width: 100%;
 		min-height: 100vh;

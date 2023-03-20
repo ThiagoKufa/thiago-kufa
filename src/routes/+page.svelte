@@ -39,6 +39,7 @@
 <style>
 	.hero {
 		display: flex;
+
 		padding: 0 var(--spacing-10);
 		gap: var(--spacing-10);
 	}
