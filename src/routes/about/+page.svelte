@@ -1,6 +1,4 @@
 <script lang="ts">
-	let tortilla = 'Plain';
-	let fillings: string[] = [];
 </script>
 
 <svelte:head>
@@ -11,7 +9,7 @@
 	<h1>Thiago de Paula Kufa</h1>
 </header>
 <main>
-	<section id="sobre-mim">
+	<section>
 		<h2>Sobre Mim</h2>
 		<p>
 			Eu sou um desenvolvedor front-end com mais de 5 anos de experiência em projetos de grande
@@ -19,7 +17,7 @@
 			e otimização de performance.
 		</p>
 	</section>
-	<section id="experiencia">
+	<section>
 		<h2>Experiência</h2>
 		<ul>
 			<li>
@@ -52,7 +50,7 @@
 			</li>
 		</ul>
 	</section>
-	<section id="educacao">
+	<section>
 		<h2>Educação</h2>
 		<ul>
 			<li>
@@ -76,8 +74,7 @@
 
 <style>
 	header {
-		background-color: #333;
-		color: #fff;
+		color: #fafafa;
 		display: flex;
 		justify-content: space-between;
 		padding: 10px;

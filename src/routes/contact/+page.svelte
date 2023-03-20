@@ -1,69 +1,44 @@
-<script lang="ts">
-	import { onMount } from 'svelte';
-
-	let fullName = '';
-	let email = '';
-	let message = '';
-
-	const handleSubmit = (event: SubmitEvent) => {
-		event.preventDefault();
-		console.log(fullName, email, message);
-	};
-
-	onMount(() => {
-		document.title = 'Contato';
-	});
+<!-- src/App.svelte -->
+<script>
 </script>
 
-<form on:submit={handleSubmit}>
-	<label for="fullName">Nome:</label>
-	<input type="text" id="fullName" name="fullName" bind:value={fullName} />
-
-	<label for="email">E-mail:</label>
-	<input type="email" id="email" name="email" bind:value={email} />
-
-	<label for="message">Mensagem:</label>
-	<textarea id="message" name="message" bind:value={message} />
-
-	<button type="submit">Enviar</button>
-</form>
-
-{#if fullName !== ''}
-	<ul>
-		<li>{fullName}</li>
-		<li>{email}</li>
-		<li>{message}</li>
-	</ul>
-{/if}
-{#if 1 + 1 === 2}
-	acerto!
-{/if}
+<div class="box">
+	<div class="right-effects" />
+	<div class="left-effects" />
+</div>
 
 <style>
-	input,
-	textarea {
-		display: block;
-		margin-bottom: 1.5rem;
-		padding: 0.75rem;
-		border: 1px solid #ccc;
-		border-radius: 0.25rem;
-		width: 100%;
+	.box {
+		position: relative;
+		z-index: 1;
 	}
-
-	button[type='submit'] {
-		background-color: #007bff;
-		color: #fff;
-		padding: 0.75rem 1.5rem;
-		border: none;
-		border-radius: 0.25rem;
-		cursor: pointer;
+	.right-effects {
+		position: fixed;
+		top: 50px;
+		right: 0;
+		bottom: auto;
+		width: 500px;
+		height: 500px;
+		border-radius: 50%;
+		background: #f64f59;
+		-webkit-filter: blur(100px);
+		filter: blur(100px);
+		opacity: 0.25;
+		pointer-events: none;
+		z-index: -1;
 	}
-	ul {
-		list-style: none;
-		padding-left: 0;
-	}
-
-	li {
-		margin-bottom: 0.5rem;
+	.left-effects {
+		position: fixed;
+		bottom: 50px;
+		left: 0;
+		width: 500px;
+		height: 500px;
+		border-radius: 50%;
+		background: #c471ed;
+		-webkit-filter: blur(100px);
+		filter: blur(100px);
+		opacity: 0.25;
+		pointer-events: none;
+		z-index: -1;
 	}
 </style>

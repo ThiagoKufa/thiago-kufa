@@ -14,6 +14,8 @@
 	<Header />
 	<main>
 		<slot />
+		<div class="right-effects" />
+		<div class="left-effects" />
 	</main>
 	<footer>
 		<div class="footer__content">
@@ -38,6 +40,7 @@
 	main {
 		flex: 1;
 		display: flex;
+		position: relative;
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
@@ -46,7 +49,7 @@
 		box-sizing: border-box;
 	}
 	footer {
-		border-top: 1px solid var(--color-primary);
+		background-color: black;
 	}
 	.footer__content {
 		flex: 1;
@@ -61,5 +64,34 @@
 	}
 	.footer__content__contact a {
 		color: var(--color-primary);
+	}
+
+	.right-effects {
+		position: absolute;
+		top: 50px;
+		right: 0;
+		bottom: auto;
+		width: 500px;
+		height: 500px;
+		border-radius: 50%;
+		background: #4fe3f6;
+		-webkit-filter: blur(100px);
+		filter: blur(100px);
+		opacity: 0.25;
+		pointer-events: none;
+		z-index: -2;
+	}
+	.left-effects {
+		position: fixed;
+		bottom: 50px;
+		width: 500px;
+		height: 500px;
+		border-radius: 50%;
+		background: #c471ed;
+		-webkit-filter: blur(100px);
+		filter: blur(100px);
+		opacity: 0.25;
+		pointer-events: none;
+		z-index: -2;
 	}
 </style>
