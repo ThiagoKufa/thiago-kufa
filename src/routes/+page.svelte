@@ -52,7 +52,8 @@
 	.description-wrap {
 		display: flex;
 		flex-direction: column;
-		width: 500px;
+		width: 95%;
+		max-width: 500px;
 		padding: var(--spacing-10);
 		padding-bottom: 0;
 	}
@@ -123,6 +124,7 @@
 			width: auto;
 		}
 		.svg-img {
+			width: 95vw;
 			padding: 0;
 			display: 0;
 		}

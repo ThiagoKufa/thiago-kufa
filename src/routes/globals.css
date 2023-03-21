@@ -76,13 +76,10 @@ body {
 	color: var(--color-text);
 	position: relative;
 	z-index: 1;
-	width: 100%;
+	width: 100vw;
+	width: 100dvw;
 	min-height: 100vh;
 	min-height: 100dvh;
-	font-family: 'Roboto', Arial, sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	letter-spacing: 0.1px;
 	line-height: 1.7;
 }
 
