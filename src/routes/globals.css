@@ -1,5 +1,7 @@
 :root {
-	--color-primary: rgb(0, 179, 192);
+	--color-bg: #151e25;
+	--color-text: #fafafa;
+	--color-primary: #0ef;
 	--color-text-primary: #ffffff;
 	--color-secondary: #ff4d6b;
 	--color-text-secondary: #ffffff;
@@ -7,8 +9,6 @@
 	--color-danger: #dc3545;
 	--color-warning: #ffc107;
 	--color-info: #17a2b8;
-	--color-text: #fafafa;
-	--color-bg: #151e25;
 	--color-border: #4a5157;
 
 	--spacing-1: 0.25rem;
