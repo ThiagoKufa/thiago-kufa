@@ -10,12 +10,12 @@
 	<div class="desciption-wrap glass-container">
 		<img
 			src="https://media.licdn.com/dms/image/D4D16AQEtMzJHkRKOlg/profile-displaybackgroundimage-shrink_350_1400/0/1666609874721?e=1684972800&v=beta&t=ibb6I210-NijBY73gfPWk-FLkerc2QxuL3mtTQC4u8Q"
-			alt=""
+			alt="Imagem de uma ilustração de thiago kufa com braços cruzado"
 		/>
 		<section>
 			<h1>Eu sou Thiago de Paula Kufa,</h1>
 			<p>
-				um desenvolvedor front-end pleno com mais de 5 anos de experiência em projetos. Possuo
+				um desenvolvedor Full-Stack pleno com mais de 5 anos de experiência em projetos. Possuo
 				habilidades em liderança de equipe, desenvolvimento de aplicações web responsivas e
 				otimização de performance.
 			</p>
