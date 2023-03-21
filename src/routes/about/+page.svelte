@@ -15,7 +15,7 @@
 		<section>
 			<h1>Eu sou Thiago de Paula Kufa,</h1>
 			<p>
-				um desenvolvedor front-end pleno com mais de 5 anos de experiência em projetos. Possuo
+				um desenvolvedor Full-Stack pleno com mais de 5 anos de experiência em projetos. Possuo
 				habilidades em liderança de equipe, desenvolvimento de aplicações web responsivas e
 				otimização de performance.
 			</p>
