@@ -8,14 +8,12 @@
 		name="description"
 		content="Procura construir seu app e expandir seu negócio? Vamos trabalhar juntos!"
 	/>
-	<title>Thiago Kufa</title>
+	<title>WebPage de Thiago Kufa</title>
 </head>
 <div class="app">
 	<Header />
 	<main>
 		<slot />
-		<div class="right-effects" />
-		<div class="left-effects" />
 	</main>
 	<footer>
 		<div class="footer__content">
@@ -44,7 +42,7 @@
 		flex: 1;
 		flex-direction: column;
 		justify-content: center;
-
+		align-items: center;
 		padding-top: 80px;
 		width: 100%;
 		min-height: 100vh;

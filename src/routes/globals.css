@@ -96,6 +96,7 @@ button {
 }
 
 .glass-container {
+	overflow: hidden;
 	background: linear-gradient(75deg, rgba(2, 0, 48, 0.1) 0%, rgba(255, 255, 255, 0.01) 100%);
 	backdrop-filter: blur(5px);
 	border-radius: 20px;
